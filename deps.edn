@@ -1,0 +1,7 @@
+{:paths ["src" "resources"]
+ :deps  {org.apache.pdfbox/pdfbox               {:mvn/version "3.0.3"}
+         com.twelvemonkeys.imageio/imageio-jpeg {:mvn/version "3.11.0"}
+         com.twelvemonkeys.imageio/imageio-tiff {:mvn/version "3.11.0"}
+         org.imgscalr/imgscalr-lib              {:mvn/version "4.2"}}
+ :aliases
+ {:run {:exec-fn io.github.rutledgepaulv.cleaner.core/-main}}}

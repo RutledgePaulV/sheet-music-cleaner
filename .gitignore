@@ -1,0 +1,8 @@
+*.pdf
+*.png
+.idea/
+*.cpcache
+target/
+*.DS_Store
+.nrepl-*
+*.iml
